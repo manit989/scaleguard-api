@@ -61,3 +61,22 @@ cd scaleguard-api
 
 # Spin up all services (Nginx, API Replicas, DB, Redis)
 docker-compose up --build
+
+
+## Documentation and Testing
+
+ - Documentation is available at /docs on swagger
+ - Testing was done use locust
+
+
+### Images
+
+
+#### docs
+
+![Swagger docs](assets/docs.png)
+
+
+#### Testing
+
+![locust test](assets/test1.png)
